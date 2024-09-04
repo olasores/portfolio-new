@@ -6,13 +6,16 @@
 </svelte:head>
 <script>
     import olaimg from "../lib/assets/olaimg.png"
+    import olaimg2 from "../lib/assets/olaimg2.png"
+    import ctoday from "../lib/assets/ctoday.jpg"
 </script>
 
 <main class=" flex flex-col items-start justify-center mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white ">
     <div class="flex items-center space-x-8 mb-9">
         <div class="">
             <!-- img here -->
-             <img src="{olaimg}" class="f"  alt="ola-img">
+             <!-- <img src="{olaimg}" class=""  alt="ola-img"> -->
+             <img src="{olaimg2}" class="w-40 h-40 rounded-full border"  alt="ola-img">
         </div>
         <div class="text-white ">
             <!-- words here -->
@@ -38,11 +41,26 @@
    
     <div class="mt-9">
         <h1 class="text-2xl">Projects </h1>
-        <!-- <p> some of my works </p> -->
     </div>
 
-
+    <div class="">
+        <div class=" py-4 grid grid-cols-2 gap-4">
+            <div class="">
+                <img src="{ctoday}" alt="charity-today" class="rounded">
+                <h3>Charity Today</h3>
+                <p class="text-[#A8A8A8]">A mockup created during the social justice and enginering competiton</p>
+            </div>
+            <div class="">
+                <img src="{ctoday}" alt="charity-today" class="rounded">
+                
+                <p>A mockup created during the social justice and enginering competiton</p>
+            </div>
+        </div>
+    </div>
     
+
+
+
     <!-- <div class="mt-9">
         <h1 class="text-2xl">Work Experience </h1>
     </div> -->
