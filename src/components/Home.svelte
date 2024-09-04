@@ -20,8 +20,8 @@
              <p >Front End Developer</p>
 
              <div class="flex space-x-2">
-                <a class="bg-blue-200 px-2 py-2 rounded" href="https://github.com/olasores">Github</a>
-                <a class="bg-blue-200 px-2 py-2 rounded" lhref="">Linkedin</a>
+                <a class="bg-blue-200 px-2 py-2 rounded" target="_blank" href="https://github.com/olasores">Github</a>
+                <a class="bg-blue-200 px-2 py-2 rounded" target="_blank" href="https://www.linkedin.com/in/oyinkansola-olayinka/">Linkedin</a>
              </div>
              
 
