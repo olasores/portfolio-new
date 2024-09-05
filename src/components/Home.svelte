@@ -69,7 +69,7 @@
                     <img src="{fullyb}" alt="fully-beyond" class="object-cover w-full h-full">
                 </div>
                 <h1 class="mt-2">FullyBeyound <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://fullybeyond.vercel.app/">view</a></h1>
-                <p class="text-[#A8A8A8]">A mockup created during the social justice and engineering competition</p>
+                <p class="text-[#A8A8A8]">A website created for CSUF first designathon</p>
             </div>
 
             <!-- Project 3 -->
@@ -88,7 +88,7 @@
                     <img src="{saasf}" alt="charity-today" class="object-cover w-full h-full">
                 </div>
                 <h1 class="mt-2">FlashCard Generator <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://flashcards-saas-weld.vercel.app/">view</a></h1>
-                <p class="text-[#A8A8A8]">A mockup created during the social justice and engineering competition</p>
+                <p class="text-[#A8A8A8]">Full Stack web application that generates flashcard based on user input</p>
             </div>
         </div>
     </div>
@@ -106,7 +106,7 @@
     </div> -->
 
 
- <p class="py-4"> website inspired by <a class="underline" target="_blank" href=" https://www.b-r.io/">b-r.io</a>& <a class="underline" target="_blank" href="https://bonhomme.lol/">bonhomme.lol</a></p>
+ <p class="py-4"> website inspired by <a class=" underline text-[#A8A8A8]" target="_blank" href=" https://www.b-r.io/">b-r.io</a> <span class="text-[#A8A8A8]">& </span><a class="text-[#A8A8A8] underline" target="_blank" href="https://bonhomme.lol/">bonhomme.lol</a></p>
 </main>
 
 <style>
