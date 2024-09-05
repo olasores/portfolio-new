@@ -106,7 +106,7 @@
     </div> -->
 
 
-
+ <p class="py-4"> website inspired by <a class="underline" target="_blank" href=" https://www.b-r.io/">b-r.io</a> <a class="underline" target="_blank" href="https://bonhomme.lol/">bonhomme.lol</a></p>
 </main>
 
 <style>
