@@ -20,7 +20,7 @@
         <div class="">
             <!-- img here -->
              <!-- <img src="{olaimg}" class=""  alt="ola-img"> -->
-             <img src="{olaimg2}" class="w-40 h-40 rounded-full border"  alt="ola-img">
+             <img src="{olaimg2}" class=" w-40 h-40 rounded-full border "  alt="ola-img">
         </div>
         <div class="text-white ">
             <!-- words here -->
@@ -55,39 +55,39 @@
     <div>
         <div class="py-4 grid grid-cols-2 gap-4">
             <!-- Project 1 -->
-            <div class="p-0">
-                <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
+            <div class="p-0 hover:scale-105 transform transition-transform duration-300">
+                <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60 ">
                     <img src="{profess}" alt="charity-today" class="object-cover w-full h-full">
                 </div>
-                <h1 class="mt-2">ProfessStar</h1>
+                <h1 class="mt-2">ProfessStar <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://ai-rate-my-professor-beta.vercel.app/">view</a></h1>
                 <p class="text-[#A8A8A8]">AI Rate My professor chatbot</p>
             </div>
             
             <!-- Project 2 -->
-            <div class="p-0">
+            <div class="p-0 hover:scale-105 transform transition-transform duration-300">
                 <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
                     <img src="{fullyb}" alt="fully-beyond" class="object-cover w-full h-full">
                 </div>
-                <h1 class="mt-2">FullyBeyound</h1>
+                <h1 class="mt-2">FullyBeyound <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://fullybeyond.vercel.app/">view</a></h1>
                 <p class="text-[#A8A8A8]">A mockup created during the social justice and engineering competition</p>
             </div>
 
             <!-- Project 3 -->
 
-            <div class="p-0">
+            <div class="p-0 hover:scale-105 transform transition-transform duration-300">
                 <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
                     <img src="{ctr}" alt="charity-today" class="object-cover w-full h-full">
                 </div>
-                <h1 class="mt-2">CharityToday</h1>
+                <h1 class="mt-2">CharityToday <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://ai-rate-my-professor-beta.vercel.app/">case study</a></h1>
                 <p class="text-[#A8A8A8]">A mockup created during the social justice and engineering competition</p>
             </div>
 
             <!-- project 4  -->
-            <div class="p-0">
+            <div class="p-0 hover:scale-105 transform transition-transform duration-300">
                 <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
                     <img src="{saasf}" alt="charity-today" class="object-cover w-full h-full">
                 </div>
-                <h1 class="mt-2">FlashCard Generator</h1>
+                <h1 class="mt-2">FlashCard Generator <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://flashcards-saas-weld.vercel.app/">view</a></h1>
                 <p class="text-[#A8A8A8]">A mockup created during the social justice and engineering competition</p>
             </div>
         </div>
@@ -106,7 +106,7 @@
     </div> -->
 
 
- <p class="py-4"> website inspired by <a class="underline" target="_blank" href=" https://www.b-r.io/">b-r.io</a> <a class="underline" target="_blank" href="https://bonhomme.lol/">bonhomme.lol</a></p>
+ <p class="py-4"> website inspired by <a class="underline" target="_blank" href=" https://www.b-r.io/">b-r.io</a>& <a class="underline" target="_blank" href="https://bonhomme.lol/">bonhomme.lol</a></p>
 </main>
 
 <style>
