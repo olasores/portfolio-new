@@ -15,17 +15,18 @@
     import saasf from "../lib/assets/saasf.png"
 </script>
 
-<main class=" flex flex-col items-start justify-center mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white ">
-    <div class="flex items-center space-x-8 mb-9">
+<main class=" flex flex-col items-start justify-center mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white  ">
+    <div class="flex items-center space-x-8 mb-6 md:mb-9">
         <div class="">
             <!-- img here -->
              <!-- <img src="{olaimg}" class=""  alt="ola-img"> -->
-             <img src="{olaimg2}" class=" w-40 h-40 rounded-full border "  alt="ola-img">
+             <img src="{olaimg2}" class=" w-20 h-20 lg:w-40 lg:h-40 rounded-full border "  alt="ola-img">
         </div>
         <div class="text-white ">
             <!-- words here -->
-             <h2 class="text-4xl">Oyinkansola Olayinka</h2>
-             <p class="mb-1 text-[#A8A8A8]"> Aspiring Front End Developer</p>
+            
+             <h2 class="text-2xl lg:text-4xl">Oyinkansola Olayinka</h2>
+             <p class="mb-1 text-xs md:text-xl text-[#A8A8A8]"> Aspiring Front End Developer</p>
 
              <div class="flex space-x-2">
                 <!-- might be better to add icons here -->
@@ -42,54 +43,65 @@
     </div>
 
     <div class="mt-9">
-        <h1 class="text-2xl mb-0">About Me</h1>
+        <h1 class="text-xl md:text-2xl mb-0">About Me</h1>
         <!-- <p class="mt-0 p-0 mb-2 text-[#A8A8A8]"> A little About me</p> -->
          <p class="text-[#A8A8A8]">My name is Ola, a junior studying computer science at California state university Fullerton. I enjoy listening to music, and reading during my free time. 
             I am Interested in various fields of technology which include but not limited to: UX/UI design, Front end development and Data Science. </p>
     </div>
    
     <div class="mt-9">
-        <h1 class="text-2xl">Projects </h1>
+        <h1 class="text-xl md:text-2xl">Projects </h1>
     </div>
 
     <div>
-        <div class="py-4 grid grid-cols-2 gap-4">
+        <div class="py-4 grid grid-cols-1 md:grid-cols-2  gap-4">
             <!-- Project 1 -->
-            <div class="p-0 hover:scale-105 transform transition-transform duration-300">
-                <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60 ">
-                    <img src="{profess}" alt="charity-today" class="object-cover w-full h-full">
+            <a target="_blank"  href="https://ai-rate-my-professor-beta.vercel.app/">
+                <div class="p-0 hover:scale-105 transform transition-transform duration-300">
+                    <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60 ">
+                        <img src="{profess}" alt="charity-today" class="object-cover w-full h-full">
+                    </div>
+                    <h1 class="mt-2">ProfessStar <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://ai-rate-my-professor-beta.vercel.app/">view</a></h1>
+                    <p class="text-[#A8A8A8]">AI Rate My professor chatbot</p>
                 </div>
-                <h1 class="mt-2">ProfessStar <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://ai-rate-my-professor-beta.vercel.app/">view</a></h1>
-                <p class="text-[#A8A8A8]">AI Rate My professor chatbot</p>
-            </div>
+            </a>
+           
             
             <!-- Project 2 -->
-            <div class="p-0 hover:scale-105 transform transition-transform duration-300">
-                <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
-                    <img src="{fullyb}" alt="fully-beyond" class="object-cover w-full h-full">
+             <a  target="_blank"  href="https://fullybeyond.vercel.app/">
+                <div class="p-0 hover:scale-105 transform transition-transform duration-300">
+                    <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
+                        <img src="{fullyb}" alt="fully-beyond" class="object-cover w-full h-full">
+                    </div>
+                    <h1 class="mt-2">FullyBeyound <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://fullybeyond.vercel.app/">view</a></h1>
+                    <p class="text-[#A8A8A8]">A website created for CSUF first designathon</p>
                 </div>
-                <h1 class="mt-2">FullyBeyound <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://fullybeyond.vercel.app/">view</a></h1>
-                <p class="text-[#A8A8A8]">A website created for CSUF first designathon</p>
-            </div>
+             </a>
+          
 
             <!-- Project 3 -->
-
-            <div class="p-0 hover:scale-105 transform transition-transform duration-300">
-                <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
-                    <img src="{ctr}" alt="charity-today" class="object-cover w-full h-full">
+             <a  target="_blank" href="https://www.figma.com/design/OYRdwpHQFHWVQwTPt9sDm9/CHARITY-TODAY-PRESENTATION?node-id=0-1&t=ERdQHjt9wR1E418A-1">
+                <div class="p-0 hover:scale-105 transform transition-transform duration-300">
+                    <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
+                        <img src="{ctr}" alt="charity-today" class="object-cover w-full h-full">
+                    </div>
+                    <h1 class="mt-2">CharityToday <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="">case study</a></h1>
+                    <p class="text-[#A8A8A8]">A mockup created during the social justice and engineering competition</p>
                 </div>
-                <h1 class="mt-2">CharityToday <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://ai-rate-my-professor-beta.vercel.app/">case study</a></h1>
-                <p class="text-[#A8A8A8]">A mockup created during the social justice and engineering competition</p>
-            </div>
+             </a>
+           
 
             <!-- project 4  -->
-            <div class="p-0 hover:scale-105 transform transition-transform duration-300">
-                <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
-                    <img src="{saasf}" alt="charity-today" class="object-cover w-full h-full">
+             <a target="_blank"  href="https://flashcards-saas-weld.vercel.app/">
+                <div class="p-0 hover:scale-105 transform transition-transform duration-300">
+                    <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
+                        <img src="{saasf}" alt="charity-today" class="object-cover w-full h-full">
+                    </div>
+                    <h1 class="mt-2">FlashCard Generator <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://flashcards-saas-weld.vercel.app/">view</a></h1>
+                    <p class="text-[#A8A8A8]">Full Stack web application that generates flashcard based on user input</p>
                 </div>
-                <h1 class="mt-2">FlashCard Generator <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://flashcards-saas-weld.vercel.app/">view</a></h1>
-                <p class="text-[#A8A8A8]">Full Stack web application that generates flashcard based on user input</p>
-            </div>
+             </a>
+            
         </div>
     </div>
     
