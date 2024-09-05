@@ -5,12 +5,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </svelte:head>
 <script>
-    import olaimg from "../lib/assets/olaimg.png"
     import olaimg2 from "../lib/assets/olaimg2.png"
-    import ctoday from "../lib/assets/ctoday.jpg"
     import profess from "../lib/assets/profess.png"
     import ctr from "../lib/assets/ctr.png"
-    import profmac from "../lib/assets/profmac.png"
     import fullyb from "../lib/assets/fullyb.png"
     import saasf from "../lib/assets/saasf.png"
 </script>
