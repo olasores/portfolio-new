@@ -25,7 +25,7 @@
         <div class="text-white ">
             <!-- words here -->
              <h2 class="text-4xl">Oyinkansola Olayinka</h2>
-             <p class="mb-1 text-[#A8A8A8]"> Aspiring Front End Engineer</p>
+             <p class="mb-1 text-[#A8A8A8]"> Aspiring Front End Developer</p>
 
              <div class="flex space-x-2">
                 <!-- might be better to add icons here -->
