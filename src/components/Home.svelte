@@ -8,6 +8,11 @@
     import olaimg from "../lib/assets/olaimg.png"
     import olaimg2 from "../lib/assets/olaimg2.png"
     import ctoday from "../lib/assets/ctoday.jpg"
+    import profess from "../lib/assets/profess.png"
+    import ctr from "../lib/assets/ctr.png"
+    import profmac from "../lib/assets/profmac.png"
+    import fullyb from "../lib/assets/fullyb.png"
+    import saasf from "../lib/assets/saasf.png"
 </script>
 
 <main class=" flex flex-col items-start justify-center mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white ">
@@ -20,12 +25,16 @@
         <div class="text-white ">
             <!-- words here -->
              <h2 class="text-4xl">Oyinkansola Olayinka</h2>
-             <p >Front End Developer</p>
+             <p class="mb-1 text-[#A8A8A8]"> Aspiring Front End Engineer</p>
 
              <div class="flex space-x-2">
                 <!-- might be better to add icons here -->
-                <a class="bg-[#A8A8A8] px-1 py-1 rounded" target="_blank" href="https://github.com/olasores">Github</a>
-                <a class="bg-[#A8A8A8] px-1 py-1 rounded" target="_blank" href="https://www.linkedin.com/in/oyinkansola-olayinka/">Linkedin</a>
+                <a class="bg-[#232323] px-1 py-1 rounded-full" target="_blank" href="https://github.com/olasores">Github</a>
+                <a class="bg-[#232323] px-1 py-1 rounded-full" target="_blank" href="https://www.linkedin.com/in/oyinkansola-olayinka/">Linkedin</a>
+                <!-- <a class="bg-[#232323] px-1 py-1 rounded-full" target="_blank" href="https://www.linkedin.com/in/oyinkansola-olayinka/">Resume</a> -->
+
+                <!-- <a class="px-1 py-1 underline " target="_blank" href="https://github.com/olasores">Github</a>
+                <a class="px-1 py-1 underline" target="_blank" href="https://www.linkedin.com/in/oyinkansola-olayinka/">Linkedin</a> -->
              </div>
              
 
@@ -43,20 +52,47 @@
         <h1 class="text-2xl">Projects </h1>
     </div>
 
-    <div class="">
-        <div class=" py-4 grid grid-cols-2 gap-4">
-            <div class="">
-                <img src="{ctoday}" alt="charity-today" class="rounded">
-                <h3>Charity Today</h3>
-                <p class="text-[#A8A8A8]">A mockup created during the social justice and enginering competiton</p>
+    <div>
+        <div class="py-4 grid grid-cols-2 gap-4">
+            <!-- Project 1 -->
+            <div class="p-0">
+                <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
+                    <img src="{profess}" alt="charity-today" class="object-cover w-full h-full">
+                </div>
+                <h1 class="mt-2">ProfessStar</h1>
+                <p class="text-[#A8A8A8]">AI Rate My professor chatbot</p>
             </div>
-            <div class="">
-                <img src="{ctoday}" alt="charity-today" class="rounded">
-                
-                <p>A mockup created during the social justice and enginering competiton</p>
+            
+            <!-- Project 2 -->
+            <div class="p-0">
+                <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
+                    <img src="{fullyb}" alt="fully-beyond" class="object-cover w-full h-full">
+                </div>
+                <h1 class="mt-2">FullyBeyound</h1>
+                <p class="text-[#A8A8A8]">A mockup created during the social justice and engineering competition</p>
+            </div>
+
+            <!-- Project 3 -->
+
+            <div class="p-0">
+                <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
+                    <img src="{ctr}" alt="charity-today" class="object-cover w-full h-full">
+                </div>
+                <h1 class="mt-2">CharityToday</h1>
+                <p class="text-[#A8A8A8]">A mockup created during the social justice and engineering competition</p>
+            </div>
+
+            <!-- project 4  -->
+            <div class="p-0">
+                <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
+                    <img src="{saasf}" alt="charity-today" class="object-cover w-full h-full">
+                </div>
+                <h1 class="mt-2">FlashCard Generator</h1>
+                <p class="text-[#A8A8A8]">A mockup created during the social justice and engineering competition</p>
             </div>
         </div>
     </div>
+    
     
 
 
