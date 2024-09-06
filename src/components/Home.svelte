@@ -12,12 +12,12 @@
     import saasf from "../lib/assets/saasf.png"
 </script>
 
-<main class=" flex flex-col items-start justify-center mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white  ">
+<main class=" flex flex-col items-start justify-center mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white">
     <div class="flex items-center space-x-8 mb-6 md:mb-9">
         <div class="">
             <!-- img here -->
              <!-- <img src="{olaimg}" class=""  alt="ola-img"> -->
-             <img src="{olaimg2}" class=" w-20 h-20 lg:w-40 lg:h-40 rounded-full border "  alt="ola-img">
+             <img src="{olaimg2}" class=" w-20 h-20 lg:w-40 lg:h-40 rounded-full border "  alt="ola-img" >
         </div>
         <div class="text-white ">
             <!-- words here -->
@@ -50,34 +50,29 @@
         <h1 class="text-xl md:text-2xl">Projects </h1>
     </div>
 
-    <div>
-        <div class="py-4 grid grid-cols-1 md:grid-cols-2  gap-4">
+    <div class="">
+        <div class="py-4 grid grid-cols-1  sm:grid-cols-2 gap-4">
             <!-- Project 1 -->
-            <a target="_blank"  href="https://ai-rate-my-professor-beta.vercel.app/">
                 <div class="p-0 hover:scale-105 transform transition-transform duration-300">
                     <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60 ">
-                        <img src="{profess}" alt="charity-today" class="object-cover w-full h-full">
-                    </div>
+                        <img src="{profess}" alt="charity-today" class="object-cover w-full h-full" width="300" height="240">                    </div>
                     <h1 class="mt-2">ProfessStar <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://ai-rate-my-professor-beta.vercel.app/">view</a></h1>
                     <p class="text-[#A8A8A8]">AI Rate My professor chatbot</p>
                 </div>
-            </a>
            
             
             <!-- Project 2 -->
-             <a  target="_blank"  href="https://fullybeyond.vercel.app/">
                 <div class="p-0 hover:scale-105 transform transition-transform duration-300">
                     <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
-                        <img src="{fullyb}" alt="fully-beyond" class="object-cover w-full h-full">
+                        <img src="{fullyb}" alt="fully-beyond" class="object-cover w-full h-full"  loading="lazy">
                     </div>
                     <h1 class="mt-2">FullyBeyound <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://fullybeyond.vercel.app/">view</a></h1>
                     <p class="text-[#A8A8A8]">A website created for CSUF first designathon</p>
                 </div>
-             </a>
+     
           
 
             <!-- Project 3 -->
-             <a  target="_blank" href="https://www.figma.com/design/OYRdwpHQFHWVQwTPt9sDm9/CHARITY-TODAY-PRESENTATION?node-id=0-1&t=ERdQHjt9wR1E418A-1">
                 <div class="p-0 hover:scale-105 transform transition-transform duration-300">
                     <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
                         <img src="{ctr}" alt="charity-today" class="object-cover w-full h-full">
@@ -85,11 +80,10 @@
                     <h1 class="mt-2">CharityToday <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="">case study</a></h1>
                     <p class="text-[#A8A8A8]">A mockup created during the social justice and engineering competition</p>
                 </div>
-             </a>
+            
            
 
             <!-- project 4  -->
-             <a target="_blank"  href="https://flashcards-saas-weld.vercel.app/">
                 <div class="p-0 hover:scale-105 transform transition-transform duration-300">
                     <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
                         <img src="{saasf}" alt="charity-today" class="object-cover w-full h-full">
@@ -97,7 +91,7 @@
                     <h1 class="mt-2">FlashCard Generator <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://flashcards-saas-weld.vercel.app/">view</a></h1>
                     <p class="text-[#A8A8A8]">Full Stack web application that generates flashcard based on user input</p>
                 </div>
-             </a>
+  
             
         </div>
     </div>
@@ -120,7 +114,6 @@
 
 <style>
     :global(body) {
-        background-color: #101010;  
-
+        background-color: #101010;
     }
 </style>
