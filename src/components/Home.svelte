@@ -12,7 +12,7 @@
     import saasf from "../lib/assets/saasf.png"
 </script>
 
-<main class=" flex flex-col items-start justify-center mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white">
+<main class=" flex flex-col items-start justify-center mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white w-full">
     <div class="flex items-center space-x-8 mb-6 md:mb-9">
         <div class="">
             <!-- img here -->
@@ -22,8 +22,8 @@
         <div class="text-white ">
             <!-- words here -->
             
-             <h2 class="text-2xl lg:text-4xl">Oyinkansola Olayinka</h2>
-             <p class="mb-1 text-xs md:text-xl text-[#A8A8A8]"> Aspiring Front End Developer</p>
+             <h2 class="text-2xl lg:text-4xl ">Oyinkansola Olayinka</h2>
+             <p class="mb-1 text-xs lg:text-xl text-[#A8A8A8]"> Aspiring Front End Developer</p>
 
              <div class="flex space-x-2">
                 <!-- might be better to add icons here -->
