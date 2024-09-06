@@ -13,16 +13,16 @@
 </script>
 
 <main class=" flex flex-col items-start justify-center mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white w-full">
-    <div class="flex items-center space-x-8 mb-6 md:mb-9">
-        <div class="">
+    <div class="flex items-center space-x-5 md:space-x-9 mb-6 md:mb-9">
+     
             <!-- img here -->
              <!-- <img src="{olaimg}" class=""  alt="ola-img"> -->
              <img src="{olaimg2}" class=" w-20 h-20 lg:w-40 lg:h-40 rounded-full border "  alt="ola-img" >
-        </div>
+
         <div class="text-white ">
             <!-- words here -->
             
-             <h2 class="text-2xl lg:text-4xl ">Oyinkansola Olayinka</h2>
+             <h2 class="text-2xl lg:text-4xl whitespace-nowrap ">Oyinkansola Olayinka</h2>
              <p class="mb-1 text-xs lg:text-xl text-[#A8A8A8]"> Aspiring Front End Developer</p>
 
              <div class="flex space-x-2">
