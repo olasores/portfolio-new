@@ -10,6 +10,8 @@
     import ctr from "../lib/assets/ctr.png"
     import fullyb from "../lib/assets/fullyb.png"
     import saasf from "../lib/assets/saasf.png"
+
+
 </script>
 
 <main class=" flex flex-col items-start justify-center mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white w-full">
@@ -29,7 +31,7 @@
                 <!-- might be better to add icons here -->
                 <a class="bg-[#232323] px-1 py-1 rounded-full" target="_blank" href="https://github.com/olasores">Github</a>
                 <a class="bg-[#232323] px-1 py-1 rounded-full" target="_blank" href="https://www.linkedin.com/in/oyinkansola-olayinka/">Linkedin</a>
-               <!-- <a class="bg-[#232323] px-1 py-1 rounded-full" target="_blank" href="../lib/Oyinkansola_Olayinka_resume.pdf">Resume</a> -->
+               <a class="bg-[#232323] px-1 py-1 rounded-full" target="_blank" href="https://drive.google.com/file/d/1dOEJkfoQH73suDsccBJyT5-bezTsWutk/view?usp=drive_link">Resume</a>
 
                 <!-- <a class="px-1 py-1 underline " target="_blank" href="https://github.com/olasores">Github</a>
                 <a class="px-1 py-1 underline" target="_blank" sr="https://www.linkedin.com/in/oyinkansola-olayinka/">Linkedin</a> -->
