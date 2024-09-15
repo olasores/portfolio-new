@@ -1,10 +1,13 @@
 <script>
     import Home from "../components/Home.svelte";
+    import NavBar from "../components/NavBar.svelte";
 </script>
 
 <main>
     <div>
+        <NavBar />
         <Home />
+
     </div>
 </main>
 
