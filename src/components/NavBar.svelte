@@ -1,9 +1,12 @@
 <script>
-    import logo from "../lib/assets/logo.png"
+    import { f } from "feather-icons";
+import logo from "../lib/assets/logo.png"
     // using https://feathericons.com/
 
     // icons 
     import { MoonIcon} from 'svelte-feather-icons'
+    import { SunIcon } from 'svelte-feather-icons'
+   
    
 
 
@@ -14,6 +17,16 @@
         {name: "Blog", link: "/blog"}
 
     ]; 
+
+
+    let darkMode = false; 
+
+    function toggle() {
+        darkMode = !darkMode; 
+    }
+
+    
+
 </script>
 
 <main class="mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white">
@@ -31,7 +44,18 @@
                 </li>
             {/each}
         </ul>
-       <MoonIcon size= "1.5x" class ="text-[#A8A8A8]"/>
+
+   
+
+       <button on:click={toggle}>
+            {#if darkMode}
+            <SunIcon size ="1.5x" class="text-[#A8A8A8]" />
+            {:else}
+            <MoonIcon size= "1.5x" class ="text-[#A8A8A8]"/>
+            {/if}
+       </button>
+      
+      
 
     </nav>
 
