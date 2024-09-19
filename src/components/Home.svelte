@@ -10,11 +10,18 @@
     import ctr from "../lib/assets/ctr.png"
     import fullyb from "../lib/assets/fullyb.png"
     import saasf from "../lib/assets/saasf.png"
+    import NavBar from "./NavBar.svelte"
+
+
+    let darkMode = false; 
+
+   
+
 
 
 </script>
-
-<main class=" flex flex-col items-start justify-center mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white w-full">
+<!-- {`mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}`} -->
+<main class={`flex flex-col items-start justify-center mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white w-full`} >
     <div class="flex items-center space-x-5 md:space-x-9 mb-6 md:mb-9">
      
             <!-- img here -->
@@ -44,7 +51,7 @@
     <div class="mt-9">
         <h1 class="text-xl md:text-2xl mb-0">About Me</h1>
         <!-- <p class="mt-0 p-0 mb-2 text-[#A8A8A8]"> A little About me</p> -->
-         <p class="text-[#A8A8A8]">My name is Ola, a junior studying computer science at California state university Fullerton. I enjoy listening to music, and reading during my free time. 
+         <p class="text-[#A8A8A8]">My name is Ola, a junior studying computer science at California State University Fullerton. I enjoy listening to music, and reading during my free time. 
             I am Interested in various fields of technology which include but not limited to: UX/UI design, Front end development and Data Science. </p>
     </div>
    
@@ -79,7 +86,7 @@
                     <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
                         <img src="{ctr}" alt="charity-today" class="object-cover w-full h-full">
                     </div>
-                    <h1 class="mt-2">CharityToday <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="">case study</a></h1>
+                    <h1 class="mt-2">CharityToday <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="/">case study</a></h1>
                     <p class="text-[#A8A8A8]">A mockup created during the social justice and engineering competition</p>
                 </div>
             

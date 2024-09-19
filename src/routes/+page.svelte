@@ -1,10 +1,15 @@
 <script>
     import Home from "../components/Home.svelte";
+    import NavBar from "../components/NavBar.svelte";
+    // import About from "../components/About.svelte";
 </script>
 
 <main>
     <div>
+        <NavBar />
         <Home />
+        <!-- <About /> -->
+
     </div>
 </main>
 
