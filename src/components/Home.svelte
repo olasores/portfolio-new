@@ -49,8 +49,9 @@
         <div class="py-4 grid grid-cols-1  sm:grid-cols-2 gap-4">
             <!-- Project 1 -->
                 <div class="p-0 hover:scale-105 transform transition-transform duration-300">
-                    <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60 ">
-                        <img src="/assets/profess.webp" alt="charity-today" class="object-cover w-full h-full" width="300" height="240">                    </div>
+                    <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60  ">
+                        <img src="/assets/profess.webp" alt="charity-today" class="object-cover w-full h-full" width="300" height="240">        
+                    </div>
                     <h1 class="mt-2">ProfessStar <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://ai-rate-my-professor-beta.vercel.app/">view</a></h1>
                     <p class="text-[#A8A8A8]">AI Rate My professor chatbot</p>
                 </div>
