@@ -12,7 +12,7 @@
      
             <!-- img here -->
              <!-- <img src="{olaimg}" class=""  alt="ola-img"> -->
-             <img src="/assets/olaimg2.png" class=" w-20 h-20 lg:w-40 lg:h-40 rounded-full border "  alt="ola-img"  >
+             <img src="/assets/olaimg2.webp" class=" w-20 h-20 lg:w-40 lg:h-40 rounded-full border "  alt="ola-img"  >
 
         <div class="text-white ">
             <!-- words here -->
@@ -50,7 +50,7 @@
             <!-- Project 1 -->
                 <div class="p-0 hover:scale-105 transform transition-transform duration-300">
                     <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60 ">
-                        <img src="/assets/profess.png" alt="charity-today" class="object-cover w-full h-full" width="300" height="240">                    </div>
+                        <img src="/assets/profess.webp" alt="charity-today" class="object-cover w-full h-full" width="300" height="240">                    </div>
                     <h1 class="mt-2">ProfessStar <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://ai-rate-my-professor-beta.vercel.app/">view</a></h1>
                     <p class="text-[#A8A8A8]">AI Rate My professor chatbot</p>
                 </div>
@@ -59,7 +59,7 @@
             <!-- Project 2 -->
                 <div class="p-0 hover:scale-105 transform transition-transform duration-300">
                     <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
-                        <img src="/assets/fullyb.png" alt="fully-beyond" class="object-cover w-full h-full" >
+                        <img src="/assets/fullyb.webp" alt="fully-beyond" class="object-cover w-full h-full" >
                     </div>
                     <h1 class="mt-2">FullyBeyound <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://fullybeyond.vercel.app/">view</a></h1>
                     <p class="text-[#A8A8A8]">A website created for CSUF first designathon</p>
@@ -70,7 +70,7 @@
             <!-- Project 3 -->
                 <div class="p-0 hover:scale-105 transform transition-transform duration-300">
                     <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
-                        <img src="/assets/ctr.png" alt="charity-today" class="object-cover w-full h-full">
+                        <img src="/assets/ctr.webp" alt="charity-today" class="object-cover w-full h-full">
                     </div>
                     <h1 class="mt-2">CharityToday <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="">case study</a></h1>
                     <p class="text-[#A8A8A8]">A mockup created during the social justice and engineering competition</p>
@@ -81,7 +81,7 @@
             <!-- project 4  -->
                 <div class="p-0 hover:scale-105 transform transition-transform duration-300">
                     <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
-                        <img src="/assets/saasf.png" alt="charity-today" class="object-cover w-full h-full">
+                        <img src="/assets/saasf.webp" alt="charity-today" class="object-cover w-full h-full">
                     </div>
                     <h1 class="mt-2">FlashCard Generator <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://flashcards-saas-weld.vercel.app/">view</a></h1>
                     <p class="text-[#A8A8A8]">Full Stack web application that generates flashcard based on user input</p>
