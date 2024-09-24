@@ -1,11 +1,13 @@
 <script>
     import { f } from "feather-icons";
-import logo from "../lib/assets/logo.png"
+    import logo from "../lib/assets/logo.png"
     // using https://feathericons.com/
 
     // icons 
     import { MoonIcon} from 'svelte-feather-icons'
     import { SunIcon } from 'svelte-feather-icons'
+
+    // import {theme} from '../stores'
    
    
 
@@ -21,8 +23,11 @@ import logo from "../lib/assets/logo.png"
 
     let darkMode = false; 
 
+    
+
     function toggle() {
         darkMode = !darkMode; 
+
     }
 
     
@@ -47,7 +52,7 @@ import logo from "../lib/assets/logo.png"
 
    
 
-       <button on:click={toggle}>
+       <button on:click={toggle} class="focus:outline-none">
             {#if darkMode}
             <SunIcon size ="1.5x" class="text-[#A8A8A8]" />
             {:else}
