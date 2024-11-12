@@ -24,7 +24,7 @@
                 <!-- might be better to add icons here -->
                 <a class="bg-[#232323] px-1 py-1 rounded-full" target="_blank" href="https://github.com/olasores">Github</a>
                 <a class="bg-[#232323] px-1 py-1 rounded-full" target="_blank" href="https://www.linkedin.com/in/oyinkansola-olayinka/">Linkedin</a>
-               <a class="bg-[#232323] px-1 py-1 rounded-full" target="_blank" href="https://drive.google.com/file/d/1dOEJkfoQH73suDsccBJyT5-bezTsWutk/view?usp=drive_link">Resume</a>
+               <a class="bg-[#232323] px-1 py-1 rounded-full" target="_blank" href="https://drive.google.com/file/d/1Yu_O4UXhE-r33kyf-ysAwyoPK-3ALTEQ/view?usp=sharing">Resume</a>
 
                 <!-- <a class="px-1 py-1 underline " target="_blank" href="https://github.com/olasores">Github</a>
                 <a class="px-1 py-1 underline" target="_blank" sr="https://www.linkedin.com/in/oyinkansola-olayinka/">Linkedin</a> -->
