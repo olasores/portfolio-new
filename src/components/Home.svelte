@@ -37,7 +37,7 @@
     <div class="mt-9">
         <h1 class="text-xl md:text-2xl mb-0">About Me</h1>
         <!-- <p class="mt-0 p-0 mb-2 text-[#A8A8A8]"> A little About me</p> -->
-         <p class="text-[#A8A8A8]">My name is Ola, a junior studying computer science at California state university Fullerton. I enjoy listening to music, and reading during my free time. 
+         <p class="text-[#A8A8A8]">My name is Ola, a junior studying computer science at California State University Fullerton. I enjoy listening to music, and reading during my free time. 
             I am Interested in various fields of technology which include but not limited to: UX/UI design, Front end development and Data Science. </p>
     </div>
    
