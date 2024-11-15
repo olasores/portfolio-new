@@ -1,17 +1,17 @@
 <script>
-    import Home from "../components/Home.svelte";
-    import NavBar from "../components/NavBar.svelte";
-    // import About from "../components/About.svelte";
-</script>
-
-<main>
-    <div>
-        <NavBar />
-        <Home />
-        <!-- <About /> -->
-
-    </div>
-</main>
+    import { darkMode } from '../stores.js';
+    import NavBar from '../components/NavBar.svelte';
+    import Home from '../components/Home.svelte';
+  </script>
+  
+  <main
+    class="  {$darkMode
+    ? 'text-white bg-black'
+    : 'text-white-mode-900 bg-white-mode-50'} "
+  >
+    <NavBar />
+    <Home />
+  </main>
 
 <style>
     main {
