@@ -6,11 +6,6 @@
 </svelte:head>
 <script>
     import { darkMode } from '../stores.js';
-    import olaimg2 from "../lib/assets/olaimg2.png"
-    import profess from "../lib/assets/profess.png"
-    import ctr from "../lib/assets/ctr.png"
-    import fullyb from "../lib/assets/fullyb.png"
-    import saasf from "../lib/assets/saasf.png"
 
 </script>
 
@@ -20,7 +15,6 @@
     <div class="flex items-center space-x-5 md:space-x-9 mb-6 md:mb-9">
      
             <!-- img here -->
-             <!-- <img src="{olaimg}" class=""  alt="ola-img"> -->
              <img src="/assets/olaimg2.webp" class=" w-20 h-20 lg:w-40 lg:h-40 rounded-full border "  alt="ola-img"  >
 
         <div class="">

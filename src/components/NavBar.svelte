@@ -1,6 +1,5 @@
 <script>
     import { f } from "feather-icons";
-    import logo from "../lib/assets/logo.png"
     // using https://feathericons.com/
 
     // icons 
@@ -36,7 +35,7 @@
     <nav class="flex item-center space-x-40">
         <!-- logo -->
         <div class="">
-            <img src="{logo}" alt="o-logo">
+            <img src="/assets/logo.png" alt="o-logo">
         </div>
         <ul class="flex space-x-6">
             {#each navBar as item}
