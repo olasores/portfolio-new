@@ -6,7 +6,6 @@
 </svelte:head>
 
 <script>
-    import NavBar from "./NavBar.svelte";
     import { darkMode } from "../stores.js";
 
 </script>
