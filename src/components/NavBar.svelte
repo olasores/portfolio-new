@@ -34,8 +34,36 @@
 ? 'text-white'
 : 'text-white-mode-900 bg-white-mode-50'}">
 
-    <nav class="flex item-center space-x-40">
-        <!-- logo -->
+    <nav class="flex items-center justify-between px-4 sm:px-6 lg:px-8">
+        <!-- Logo (Hidden on Mobile) -->
+        <div class="hidden sm:block">
+          <img src="/assets/logo.png" alt="o-logo" class="h-8 w-auto">
+        </div>
+      
+        <!-- Navigation Links -->
+        <ul class="flex space-x-6 sm:space-x-10">
+          {#each navBar as item}
+            <li>
+              <a href={item.link} class="transition-colors duration-300 hover:text-gray-400
+            { $darkMode ? 'text-white' : 'text-black'}">
+                {item.name}
+              </a>
+            </li>
+          {/each}
+        </ul>
+      
+        <!-- Dark Mode Toggle -->
+        <button on:click={toggle} class="focus:outline-none">
+          {#if $darkMode}
+            <SunIcon size="1.5x" class="text-[#A8A8A8]" />
+          {:else}
+            <MoonIcon size="1.5x" class="text-[#A8A8A8]" />
+          {/if}
+        </button>
+      </nav>
+
+          <!-- <nav class="flex item-center space-x-40">
+        logo
         <div class="">
             <img src="/assets/logo.png" alt="o-logo">
         </div>
@@ -61,7 +89,8 @@
       
       
 
-    </nav>
+    </nav> -->
+      
 
     
 
