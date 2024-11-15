@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </svelte:head>
 <script>
+    import { darkMode } from '../stores.js';
     import olaimg2 from "../lib/assets/olaimg2.png"
     import profess from "../lib/assets/profess.png"
     import ctr from "../lib/assets/ctr.png"
@@ -14,24 +15,26 @@
 
 </script>
 
-<main class=" flex flex-col items-start justify-center mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white w-full" >
+<main class=" flex flex-col items-start justify-center mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16  text-white w-full   {$darkMode
+    ? 'text-white bg-black'
+    : 'text-white-mode-900 bg-white-mode-50'}" >
     <div class="flex items-center space-x-5 md:space-x-9 mb-6 md:mb-9">
      
             <!-- img here -->
              <!-- <img src="{olaimg}" class=""  alt="ola-img"> -->
              <img src="{olaimg2}" class=" w-20 h-20 lg:w-40 lg:h-40 rounded-full border "  alt="ola-img"  >
 
-        <div class="text-white ">
+        <div class="">
             <!-- words here -->
             
-             <h2 class="text-2xl lg:text-4xl whitespace-nowrap ">Oyinkansola Olayinka</h2>
+             <h2 class="text-2xl lg:text-4xl whitespace-nowrap  text-{$darkMode ? 'white' : 'black'} ">Oyinkansola Olayinka</h2>
              <p class="mb-1 text-xs lg:text-xl text-[#A8A8A8]"> Aspiring Front End Developer</p>
 
-             <div class="flex space-x-2">
+             <div class="flex space-x-2 ">
                 <!-- might be better to add icons here -->
-                <a class="bg-[#232323] px-1 py-1 rounded-full" target="_blank" href="https://github.com/olasores">Github</a>
-                <a class="bg-[#232323] px-1 py-1 rounded-full" target="_blank" href="https://www.linkedin.com/in/oyinkansola-olayinka/">Linkedin</a>
-               <a class="bg-[#232323] px-1 py-1 rounded-full" target="_blank" href="https://drive.google.com/file/d/1dOEJkfoQH73suDsccBJyT5-bezTsWutk/view?usp=drive_link">Resume</a>
+                <a class="  {$darkMode ? 'bg-[#232323] hover:bg-[#191919] text-white' : 'bg-[#F0F0F0] hover:bg-[#E0E0E0] text-black'}  px-1 py-1 rounded-full" target="_blank" href="https://github.com/olasores">Github</a>
+                <a class=" {$darkMode ? 'bg-[#232323] hover:bg-[#191919] text-white' : 'bg-[#F0F0F0] hover:bg-[#E0E0E0] text-black'}   px-1 py-1 rounded-full" target="_blank" href="https://www.linkedin.com/in/oyinkansola-olayinka/">Linkedin</a>
+               <a class=" {$darkMode ? 'bg-[#232323] hover:bg-[#191919] text-white' : 'bg-[#F0F0F0] hover:bg-[#E0E0E0] text-black'} px-1 py-1 rounded-full" target="_blank" href="https://drive.google.com/file/d/1dOEJkfoQH73suDsccBJyT5-bezTsWutk/view?usp=drive_link">Resume</a>
 
                 <!-- <a class="px-1 py-1 underline " target="_blank" href="https://github.com/olasores">Github</a>
                 <a class="px-1 py-1 underline" target="_blank" sr="https://www.linkedin.com/in/oyinkansola-olayinka/">Linkedin</a> -->

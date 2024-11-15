@@ -7,6 +7,8 @@
     import { MoonIcon} from 'svelte-feather-icons'
     import { SunIcon } from 'svelte-feather-icons'
 
+    import { darkMode } from "../stores.js";
+
     // import {theme} from '../stores'
    
    
@@ -20,21 +22,17 @@
 
     ]; 
 
-
-    let darkMode = false; 
-
     
-
     function toggle() {
-        darkMode = !darkMode; 
-
-    }
-
+    $darkMode = !$darkMode;
+  }
     
 
 </script>
 
-<main class="mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white">
+<main class="mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 {$darkMode
+? 'text-white'
+: 'text-white-mode-900 bg-white-mode-50'}">
     <nav class="flex item-center space-x-40">
         <!-- logo -->
         <div class="">
@@ -53,7 +51,7 @@
    
 
        <button on:click={toggle} class="focus:outline-none">
-            {#if darkMode}
+            {#if $darkMode}
             <SunIcon size ="1.5x" class="text-[#A8A8A8]" />
             {:else}
             <MoonIcon size= "1.5x" class ="text-[#A8A8A8]"/>

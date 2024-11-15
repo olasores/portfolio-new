@@ -1,3 +1,3 @@
-import {writeable} from 'svelte/store'
+import { writable } from 'svelte/store';
 
-export const theme = writeable(false); 
+export const darkMode = writable(false);
