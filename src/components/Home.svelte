@@ -12,7 +12,6 @@
     import fullyb from "../lib/assets/fullyb.png"
     import saasf from "../lib/assets/saasf.png"
 
-
 </script>
 
 <main class=" flex flex-col items-start justify-center mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16  text-white w-full   {$darkMode
@@ -22,7 +21,7 @@
      
             <!-- img here -->
              <!-- <img src="{olaimg}" class=""  alt="ola-img"> -->
-             <img src="{olaimg2}" class=" w-20 h-20 lg:w-40 lg:h-40 rounded-full border "  alt="ola-img"  >
+             <img src="/assets/olaimg2.webp" class=" w-20 h-20 lg:w-40 lg:h-40 rounded-full border "  alt="ola-img"  >
 
         <div class="">
             <!-- words here -->
@@ -32,6 +31,7 @@
 
              <div class="flex space-x-2 ">
                 <!-- might be better to add icons here -->
+
                 <a class="  {$darkMode ? 'bg-[#232323] hover:bg-[#191919] text-white' : 'bg-[#F0F0F0] hover:bg-[#E0E0E0] text-black'}  px-1 py-1 rounded-full" target="_blank" href="https://github.com/olasores">Github</a>
                 <a class=" {$darkMode ? 'bg-[#232323] hover:bg-[#191919] text-white' : 'bg-[#F0F0F0] hover:bg-[#E0E0E0] text-black'}   px-1 py-1 rounded-full" target="_blank" href="https://www.linkedin.com/in/oyinkansola-olayinka/">Linkedin</a>
                <a class=" {$darkMode ? 'bg-[#232323] hover:bg-[#191919] text-white' : 'bg-[#F0F0F0] hover:bg-[#E0E0E0] text-black'} px-1 py-1 rounded-full" target="_blank" href="https://drive.google.com/file/d/1dOEJkfoQH73suDsccBJyT5-bezTsWutk/view?usp=drive_link">Resume</a>
@@ -59,8 +59,9 @@
         <div class="py-4 grid grid-cols-1  sm:grid-cols-2 gap-4">
             <!-- Project 1 -->
                 <div class="p-0 hover:scale-105 transform transition-transform duration-300">
-                    <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60 ">
-                        <img src="{profess}" alt="charity-today" class="object-cover w-full h-full" width="300" height="240">                    </div>
+                    <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60  ">
+                        <img src="/assets/profess.webp" alt="charity-today" class="object-cover w-full h-full" width="300" height="240">        
+                    </div>
                     <h1 class="mt-2">ProfessStar <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://ai-rate-my-professor-beta.vercel.app/">view</a></h1>
                     <p class="text-[#A8A8A8]">AI Rate My professor chatbot</p>
                 </div>
@@ -69,7 +70,7 @@
             <!-- Project 2 -->
                 <div class="p-0 hover:scale-105 transform transition-transform duration-300">
                     <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
-                        <img src="{fullyb}" alt="fully-beyond" class="object-cover w-full h-full" >
+                        <img src="/assets/fullyb.webp" alt="fully-beyond" class="object-cover w-full h-full" >
                     </div>
                     <h1 class="mt-2">FullyBeyound <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://fullybeyond.vercel.app/">view</a></h1>
                     <p class="text-[#A8A8A8]">A website created for CSUF first designathon</p>
@@ -80,7 +81,7 @@
             <!-- Project 3 -->
                 <div class="p-0 hover:scale-105 transform transition-transform duration-300">
                     <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
-                        <img src="{ctr}" alt="charity-today" class="object-cover w-full h-full">
+                        <img src="/assets/ctr.webp" alt="charity-today" class="object-cover w-full h-full">
                     </div>
                     <h1 class="mt-2">CharityToday <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="">case study</a></h1>
                     <p class="text-[#A8A8A8]">A mockup created during the social justice and engineering competition</p>
@@ -91,7 +92,7 @@
             <!-- project 4  -->
                 <div class="p-0 hover:scale-105 transform transition-transform duration-300">
                     <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
-                        <img src="{saasf}" alt="charity-today" class="object-cover w-full h-full">
+                        <img src="/assets/saasf.webp" alt="charity-today" class="object-cover w-full h-full">
                     </div>
                     <h1 class="mt-2">FlashCard Generator <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="https://flashcards-saas-weld.vercel.app/">view</a></h1>
                     <p class="text-[#A8A8A8]">Full Stack web application that generates flashcard based on user input</p>
