@@ -7,8 +7,10 @@
 <main class=" {$darkMode
     ? 'text-white bg-black'
     : 'text-white-mode-900 bg-white-mode-50'}">
+
   <NavBar />
   <About />
+  
 </main>
 
 <style>
