@@ -26,10 +26,10 @@
     : 'text-white-mode-900 bg-white-mode-50'}">
     
     <!-- about section  -->
-    <section class="mb-5">
+    <section class="mb-2 md:mb-4">
         <h1 class="text-xl md:text-2xl mb-5 px-3">About me </h1>
         <div class="flex flex-col md:flex-row gap-10">
-            <img src="/assets/image0.png" alt="img-ola">
+            <img src="/assets/image0.webp" alt="img-ola">
             <p>My name is Ola, a junior studying computer science at California state university Fullerton. I enjoy listening to music, and reading during my free time. 
 
                 I am Interested in various fields of technology which include but not limited to; Ux/Ui design, Front end development and Data Science. 
