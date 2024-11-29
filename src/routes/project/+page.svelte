@@ -2,6 +2,7 @@
     import NavBar from "../../components/NavBar.svelte";
     import Project from "../../components/Project.svelte";
     import { darkMode } from "../../stores.js";
+    import Footer from "../../components/other/Footer.svelte";
 </script>
 
 
@@ -10,6 +11,8 @@
     : 'text-white-mode-900 bg-white-mode-50'}">
     <NavBar />
     <Project />
+
+    <Footer />
 </main>
 
 

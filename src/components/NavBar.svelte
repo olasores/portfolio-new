@@ -18,7 +18,7 @@
         {name: "Home", link: "/"}, 
         {name: "About", link: "/about"},
         {name: "Projects", link: "/project"},
-        {name: "Blog", link: "/blog"}
+        // {name: "Blog", link: "/blog"}
 
     ]; 
 

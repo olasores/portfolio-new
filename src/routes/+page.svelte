@@ -1,6 +1,7 @@
 <script>
     import { darkMode } from '../stores.js';
     import NavBar from '../components/NavBar.svelte';
+    import Footer from '../components/other/Footer.svelte';
     import Home from '../components/Home.svelte';
   </script>
   
@@ -11,6 +12,8 @@
   >
     <NavBar />
     <Home />
+
+    <Footer />
 
   </main>
 

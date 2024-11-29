@@ -2,6 +2,7 @@
   import About from "../../components/About.svelte";
   import NavBar from "../../components/NavBar.svelte"
   import { darkMode } from "../../stores.js";
+  import Footer from "../../components/other/Footer.svelte";
 </script>
 
 <main class=" {$darkMode
@@ -10,6 +11,8 @@
 
   <NavBar />
   <About />
+
+  <Footer /> 
   
 </main>
 

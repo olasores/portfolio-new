@@ -39,13 +39,16 @@
     </div>
 
     <div class="mt-9">
-        <h1 class="text-xl md:text-2xl mb-0">About Me</h1>
+        <!-- <h1 class="text-xl md:text-2xl mb-0">About Me</h1> -->
+        <h1 class="text-xl md:text-2xl mb-0">Welcome 👋🏽</h1>
+
         <!-- <p class="mt-0 p-0 mb-2 text-[#A8A8A8]"> A little About me</p> -->
-         <p class="text-[#A8A8A8]">My name is Ola, a junior studying computer science at California State University Fullerton. I enjoy listening to music, and reading during my free time. 
-            I am Interested in various fields of technology which include but not limited to: UX/UI design, Front end development and Data Science. </p>
+         <p class="text-[#A8A8A8]">
+            My name is Ola! I enjoy making things on the web. Welcome to my portfolio, where I showcase my journey, projects, and insights in web development and design 
+        </p>
     </div>
    
-    <div class="mt-9">
+    <div class="mt-5">
         <h1 class="text-xl md:text-2xl">Projects </h1>
     </div>
 
@@ -100,16 +103,7 @@
 
 
 
-    <!-- <div class="mt-9">
-        <h1 class="text-2xl">Work Experience </h1>
-    </div> -->
 
-    <!-- <div class="mt-9">
-        <h1 class="text-2xl">Education </h1>
-    </div> -->
-
-
- <p class="py-4"> website inspired by <a class=" underline text-[#A8A8A8]" target="_blank" href=" https://www.b-r.io/">b-r.io</a> <span class="text-[#A8A8A8]">& </span><a class="text-[#A8A8A8] underline" target="_blank" href="https://bonhomme.lol/">bonhomme.lol</a></p>
 </main>
 
 <style>
