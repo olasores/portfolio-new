@@ -1,4 +1,3 @@
-
 // store all the projects data here 
 export const projects = [
     {
