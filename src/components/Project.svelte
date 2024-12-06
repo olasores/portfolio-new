@@ -7,12 +7,37 @@
 <script>
     import { darkMode } from "../stores.js";
 
+    import Filter from "./other/Filter.svelte";
+
+    import ProjectComp from "./other/ProjectComp.svelte";
+
 </script>
 
 <main class="mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white w-full  {$darkMode
     ? 'text-white bg-black'
     : 'text-white-mode-900 bg-white-mode-50'}">
-    <h1>This is going to be the project page</h1>
+
+
+
+    <section>
+        <h1 class="text-xl md:text-2xl mb-5 px-3">More Projects </h1>
+        <div class=" px-3 mb-2">
+            <p>
+                I've worked on a variety of projects, from simple websites, web applications, user interface design, and a few on data anaylsis/science
+            </p>
+        </div>
+
+        <ProjectComp />
+
+        <div class="mb-2">
+        
+
+        </div>
+
+       
+
+
+    </section>
 </main>
 
 <style>

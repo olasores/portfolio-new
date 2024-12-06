@@ -48,8 +48,10 @@
         </p>
     </div>
    
-    <div class="mt-5">
-        <h1 class="text-xl md:text-2xl">Projects </h1>
+    <!-- add the view on the right side -->
+    <div class="flex justify-between gap-4  mt-5">
+        <h1 class="text-xl md:text-2xl">Featured Projects </h1>
+        <p  class="text-[#A8A8A8]">view all</p>
     </div>
 
     <div class="">
@@ -80,7 +82,7 @@
                     <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
                         <img src="/assets/ctr.webp" alt="charity-today" class="object-cover w-full h-full">
                     </div>
-                    <h1 class="mt-2">CharityToday <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="">case study</a></h1>
+                    <h1 class="mt-2">CharityToday <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank"  href="/">case study</a></h1>
                     <p class="text-[#A8A8A8]">A mockup created during the social justice and engineering competition</p>
                 </div>
             

@@ -18,6 +18,7 @@
         {name: "Home", link: "/"}, 
         {name: "About", link: "/about"},
         {name: "Projects", link: "/project"},
+        {name: "Contact", link: "/contact"},
         // {name: "Blog", link: "/blog"}
 
     ]; 
