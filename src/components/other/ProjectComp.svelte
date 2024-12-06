@@ -24,19 +24,21 @@
   
   <main class="p-6">
     <!-- Tabs -->
-    <div class="flex flex-wrap gap-2 justify-center mb-6">
+    <div 
+      class="flex flex-wrap gap-2 mb-6 justify-start sm:justify-center">
       {#each tabs as tab}
         <button
-          class="py-2 px-4 rounded-lg text-sm font-medium 
-                 {activeTab === tab.value 
-                 ? 'bg-gray-600 text-white' 
-                 : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}"
-          on:click={() => (activeTab = tab.value)}
+        class="py-2 px-4 rounded-lg text-sm font-medium 
+            {activeTab === tab.value 
+            ? 'bg-gray-600 text-white' 
+            : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}"
+        on:click={() => (activeTab = tab.value)}
         >
-          {tab.label}
+        {tab.label}
         </button>
       {/each}
     </div>
+
   
     <!-- Projects Cards -->
     <div class="space-y-6">
