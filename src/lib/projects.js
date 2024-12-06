@@ -1,5 +1,3 @@
-import { Link } from "@mui/material";
-import { link } from "framer-motion/client";
 
 // store all the projects data here 
 export const projects = [
