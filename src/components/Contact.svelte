@@ -1,6 +1,6 @@
 <script>    
 	import { darkMode } from "../stores";
-    // import Form from "./other/Form.svelte";
+    import Form from "./other/Form.svelte";
 </script>
 
 
@@ -8,10 +8,10 @@
 ? 'text-white bg-black'
 : 'text-white-mode-900 bg-white-mode-50'}">
     <section>
-        <h1 class="text-xl md:text-2xl mb-5 px-3">Contact Me </h1>
-        <p>work in progress</p>
-        <!-- <Form /> -->
+        <h1 class="text-xl md:text-2xl px-3">Contact Me </h1>
+        <Form />
     </section>
+
 
     
 

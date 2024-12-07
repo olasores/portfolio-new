@@ -6,6 +6,7 @@
 
 <script>
     import { darkMode } from '../stores.js';
+    import { ArrowUpRightIcon } from 'svelte-feather-icons';
 </script>
 
 <main class="flex flex-col items-start justify-center mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white w-full {$darkMode
@@ -20,11 +21,34 @@
             <p class="mb-1 text-xs lg:text-xl text-[#A8A8A8]">Aspiring Front End Developer</p>
 
             <div class="flex space-x-2">
-                <a class="{$darkMode ? 'bg-[#232323] hover:bg-[#191919] text-white' : 'bg-[#F0F0F0] hover:bg-[#E0E0E0] text-black'} px-1 py-1 rounded-full" target="_blank" href="https://github.com/olasores">Github</a>
-                <a class="{$darkMode ? 'bg-[#232323] hover:bg-[#191919] text-white' : 'bg-[#F0F0F0] hover:bg-[#E0E0E0] text-black'} px-1 py-1 rounded-full" target="_blank" href="https://www.linkedin.com/in/oyinkansola-olayinka/">Linkedin</a>
-                <a class="{$darkMode ? 'bg-[#232323] hover:bg-[#191919] text-white' : 'bg-[#F0F0F0] hover:bg-[#E0E0E0] text-black'} px-1 py-1 rounded-full" target="_blank" href="https://drive.google.com/file/d/1dOEJkfoQH73suDsccBJyT5-bezTsWutk/view?usp=drive_link">Resume</a>
+                <a 
+                    class="{$darkMode ? 'bg-[#232323] hover:bg-[#191919] text-white' : 'bg-[#F0F0F0] hover:bg-[#E0E0E0] text-black'} flex items-center px-2 py-1 rounded-full" 
+                    target="_blank" 
+                    href="https://github.com/olasores"
+                >
+                    Github
+                    <ArrowUpRightIcon class="text-[#A8A8A8] hover:text-white h-4 w-4" />
+                </a>
+                <a 
+                    class="{$darkMode ? 'bg-[#232323] hover:bg-[#191919] text-white' : 'bg-[#F0F0F0] hover:bg-[#E0E0E0] text-black'} flex items-center px-2 py-1 rounded-full" 
+                    target="_blank" 
+                    href="https://www.linkedin.com/in/oyinkansola-olayinka/"
+                >
+                    Linkedin
+                    <ArrowUpRightIcon class="text-[#A8A8A8] hover:text-white h-4 w-4" />
+                </a>
+                <a 
+                    class="{$darkMode ? 'bg-[#232323] hover:bg-[#191919] text-white' : 'bg-[#F0F0F0] hover:bg-[#E0E0E0] text-black'} flex items-center px-2 py-1 rounded-full" 
+                    target="_blank" 
+                    href="https://drive.google.com/file/d/1dOEJkfoQH73suDsccBJyT5-bezTsWutk/view?usp=drive_link"
+                >
+                    Resume
+                    <ArrowUpRightIcon class="text-[#A8A8A8] hover:text-white h-4 w-4" />
+                </a>
             </div>
+            
         </div>
+        
     </div>
 
     <div class="mt-9">
@@ -41,6 +65,9 @@
             class="text-[#A8A8A8] hover:text-gray-500 underline text-sm md:text-base ml-auto"
         >
             view all
+        </a> 
+        <a href="/project">
+            <ArrowUpRightIcon class="text-[#A8A8A8] hover:text-white h-4 w-4" /> 
         </a>
     </div>
       
@@ -60,7 +87,9 @@
                 <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
                     <img src="/assets/fullyb.webp" alt="fully-beyond" class="object-cover w-full h-full">
                 </div>
-                <h1 class="mt-2">FullyBeyound <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank" href="https://fullybeyond.vercel.app/">view</a></h1>
+                <h1 class="mt-2">FullyBeyound <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank" href="https://fullybeyond.vercel.app/">
+                    view
+                </a></h1>
                 <p class="text-[#A8A8A8]">A website created for CSUF first designathon</p>
             </div>
 
