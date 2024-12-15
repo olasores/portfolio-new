@@ -72,6 +72,7 @@
     </div>
       
     <div>
+        <a href=""></a>
         <div class="py-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
             <!-- Project 1 -->
             <div class="p-0 hover:scale-105 transform transition-transform duration-300">
@@ -96,7 +97,7 @@
                 <div class="bg-[#232323] rounded-t-lg overflow-hidden flex items-center justify-center w-full h-60">
                     <img src="/assets/ctr.webp" alt="charity-today" class="object-cover w-full h-full">
                 </div>
-                <h1 class="mt-2">CharityToday <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank" href="/">case study</a></h1>
+                <h1 class="mt-2">CharityToday <span class="font-bold">|</span> <a class="text-[#A8A8A8] underline" target="_blank" href="https://www.figma.com/design/OYRdwpHQFHWVQwTPt9sDm9/CHARITY-TODAY-PRESENTATION?node-id=0-1&t=zIgsdFxN3GActlkE-1">case study</a></h1>
                 <p class="text-[#A8A8A8]">A mockup created during the social justice and engineering competition</p>
             </div>
             
