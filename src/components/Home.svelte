@@ -62,7 +62,7 @@
     </FadeIn>
    
     <FadeIn delay={400}>
-        <div class="flex items-center justify-between mt-5 w-full gap-x-20 md:gap-x-80">
+        <div class="flex items-center justify-between mt-5 w-full gap-x-20  md:gap-x-80">
             <h1 class="text-xl md:text-2xl font-bold">Featured Projects</h1>
             <div class="flex items-center">
                 <a 
