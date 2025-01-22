@@ -10,7 +10,8 @@
     import Filter from "./other/Filter.svelte";
 
     import ProjectComp from "./other/ProjectComp.svelte";
-
+    import FadeIn from "../lib/FadeIn.svelte";
+	import { Fade } from "@mui/material";
 </script>
 
 <main class="mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white w-full  {$darkMode
@@ -18,26 +19,38 @@
     : 'text-white-mode-900 bg-white-mode-50'}">
 
 
+    
+        <section>
+            <FadeIn>
+                <div>
+                    <h1 class="text-xl md:text-2xl mb-5 px-3">More Projects </h1>
+                    <div class=" px-3 mb-2">
+                        <p>
+                            I've worked on a variety of projects, from simple websites, web applications, user interface design, and a few on data anaylsis/science
+                        </p>
+                    </div>
+                </div>
 
-    <section>
-        <h1 class="text-xl md:text-2xl mb-5 px-3">More Projects </h1>
-        <div class=" px-3 mb-2">
-            <p>
-                I've worked on a variety of projects, from simple websites, web applications, user interface design, and a few on data anaylsis/science
-            </p>
-        </div>
+            </FadeIn>
+            
 
-        <ProjectComp />
+            <FadeIn delay={200}> 
+                <div>
+                    <ProjectComp />
+                </div>
+            </FadeIn>
+          
+    
+    
+            
+    
+           
+    
+    
+        </section>
 
-        <div class="mb-2">
-        
-
-        </div>
-
-       
-
-
-    </section>
+    
+  
 </main>
 
 <style>
