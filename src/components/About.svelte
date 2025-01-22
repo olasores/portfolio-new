@@ -11,7 +11,6 @@
 
 
 
-    import Otherexp from "./other/Otherexp.svelte";
 
     // import Skills from "./other/Skills.svelte";
 
@@ -19,7 +18,7 @@
 
     import Expnew from "./other/Expnew.svelte";
 
-    import Skillcom from "./other/Skillcom.svelte";
+    // import Skillcom from "./other/Skillcom.svelte";
 
 
     
