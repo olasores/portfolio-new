@@ -1,6 +1,6 @@
 <script>    
 	import FadeIn from "../lib/FadeIn.svelte";
-import { darkMode } from "../stores";
+    import { darkMode } from "../stores";
     import Form from "./other/Form.svelte";
 </script>
 

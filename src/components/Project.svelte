@@ -11,7 +11,6 @@
 
     import ProjectComp from "./other/ProjectComp.svelte";
     import FadeIn from "../lib/FadeIn.svelte";
-	import { Fade } from "@mui/material";
 </script>
 
 <main class="mx-auto max-w-[700px] p-40 px-10 pb-4 pt-16 text-white w-full  {$darkMode
