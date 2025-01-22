@@ -1,6 +1,6 @@
 <script>
     import { Timeline, TimelineItem, Button } from 'flowbite-svelte';
-    import { ArrowRightOutline } from 'flowbite-svelte-icons';
+    // import { ArrowRightOutline } from 'flowbite-svelte-icons';
     import { darkMode } from '../../stores.js';
   </script>
 

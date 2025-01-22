@@ -1,7 +1,7 @@
 <script>
     import { darkMode } from '../stores.js';
     import { ArrowUpRightIcon } from 'svelte-feather-icons';
-    import { fade, fly } from 'svelte/transition';
+    import { fly } from 'svelte/transition';
     import FadeIn from '../lib/FadeIn.svelte';
 </script>
 <svelte:head>

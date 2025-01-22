@@ -7,7 +7,7 @@
 <script>
     import { darkMode } from "../stores.js";
 
-    import Filter from "./other/Filter.svelte";
+    // import Filter from "./other/Filter.svelte";
 
     import ProjectComp from "./other/ProjectComp.svelte";
     import FadeIn from "../lib/FadeIn.svelte";
