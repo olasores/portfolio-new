@@ -38,7 +38,10 @@
     <nav class="flex items-center justify-between px-4 sm:px-6 lg:px-8">
         <!-- Logo (Hidden on Mobile) -->
         <div class="hidden sm:block">
-          <img src="/assets/logo.png" alt="o-logo" class="h-8 w-auto">
+          <a href="/">
+            <img src="/assets/logo.png" alt="o-logo" class="h-8 w-auto">
+          </a>
+
         </div>
       
         <!-- Navigation Links -->
