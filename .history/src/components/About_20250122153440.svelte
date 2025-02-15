@@ -38,6 +38,7 @@
     
                     I am Interested in various fields of technology which include but not limited to; Ux/Ui design, Front end development and Data Science. 
                     
+                    I am Interested in various fields of technology which include but not limited to; Ux/Ui design, Front end development and Data Science. 
                 </p>
     
             </div>
